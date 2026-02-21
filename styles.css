@@ -82,14 +82,22 @@ footer {
 
 @media(max-width:786px){
   h1{
-    font: 2.2rem;
+    font: 2rem;
     text-align: center;
   }
   .drum{
-    width: 90px;
-    height: 90px;
-    font-size: 2rem;
-    line-height: 90px;
-    margin: 8px;
+    width: 85px;
+    height: 85px;
+    font-size: 1.8rem;
+    line-height: 85px;
+    margin: 6px;
+  }
+  .set{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:12px;
+    width:95%;
+    margin:30px auto;
   }
 }
